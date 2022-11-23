@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import Description from '../components/Description';
@@ -10,11 +11,12 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <>
       <Head>
-        <title>Caio Services - IPTV Sem Quedas e Sem Travamentos</title>
-        <meta name='description' content='IPTV e P2P com qualidade superior, venha conhecer as nossas ofertas.' />
+        <title>{t('head.title')}</title>
+        <meta name='description' content={t('head.description')} />
         <link rel='icon' href='img/favicon.ico' />
       </Head>
       <Header />
