@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "header": {
+      "nav": {
+        "option1": "Como funciona?",
+        "option2": "Nossos planos",
+        "option3": "Perguntas frequentes",
+        "option4": "Seja um revendedor",
+        "option5": "Central do Assinante"
+      }
+    },
+    "hero-section": {
+      "title": "+ de 100 mil conteúdos",
+      "subtitle": "incluindo canais, filmes e séries em alta qualidade de imagem",
+      "button": "Testar grátis agora",
+      "warning": "*O período de teste grátis tem duração de 4 horas, sem a exigência de nenhum dado financeiro por parte do usuário."
+    }
+  }
+}
