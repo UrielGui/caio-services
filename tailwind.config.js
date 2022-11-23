@@ -13,6 +13,9 @@ module.exports = {
         defaultLightgreen: '#0CDFD2',
         defaultCyan: '#10A4C4',
       },
+      fontFamily: {
+        sans: ['OpenSans', 'sans-serif'],
+      },
       backgroundImage: {
         'hero-section-background': "url('/img/hero-section-background.png')",
       },
