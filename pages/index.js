@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import Description from '../components/Description';
-import Feature from '../components/Feature';
+import HowItWorks from '../components/HowItWorks';
 import Pricing from '../components/Pricing';
 import Pricing2 from '../components/Pricing-2';
 import Faq from '../components/Faq';
@@ -22,7 +22,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Description />
-      <Feature />
+      <HowItWorks />
       <Pricing />
       <Pricing2 />
       <Faq />
