@@ -5,13 +5,12 @@ import enUS from './locales/en-us.json';
 
 const resources = {
   'pt-BR': ptBR,
-  en: enUS,
+  'en-US': enUS,
 };
 
 i18n.use(initReactI18next).init({
   resources,
   lng: 'pt-BR',
-
   interpolation: {
     escapeValue: false,
   },
