@@ -19,6 +19,17 @@ module.exports = {
       backgroundImage: {
         'hero-section-background': "url('/img/hero-section-background.png')",
       },
+      width: {
+        200: '200%',
+      },
+      keyframes: {
+        slide: {
+          '100%': { transform: 'translateX(-66.6666%)' },
+        },
+      },
+      animation: {
+        slide: 'slide 30s linear infinite',
+      },
     },
   },
   plugins: [
