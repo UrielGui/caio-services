@@ -13,18 +13,18 @@ export default function Header() {
           <div className='flex flex-grow'>
             <nav className='flex text-white w-full mt-1 pl-4'>
               <ul className='flex px-2 cursor-pointer flex-grow'>
-                <li className='px-2'>{t('header.nav.option1')}</li>
-                <li className='px-2'>{t('header.nav.option2')}</li>
-                <li className='px-2'>{t('header.nav.option3')}</li>
+                <li className='px-2'>{t('header.nav.option-1')}</li>
+                <li className='px-2'>{t('header.nav.option-2')}</li>
+                <li className='px-2'>{t('header.nav.option-3')}</li>
               </ul>
             </nav>
           </div>
           <div className='flex'>
             <ul className='flex px-2 cursor-pointer flex-grow place-items-center'>
-              <li className='px-2'>{t('header.nav.option4')}</li>
+              <li className='px-2'>{t('header.nav.option-4')}</li>
               <li className='px-2'>
                 <button type='button' className='bg-defaultBlue rounded-md py-1.5 px-5'>
-                  {t('header.nav.option5')}
+                  {t('header.nav.option-5')}
                 </button>
               </li>
             </ul>
