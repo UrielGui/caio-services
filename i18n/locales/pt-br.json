@@ -30,7 +30,11 @@
       "description-3": "Veja como é simples:",
       "step-by-step-1": "1. Escolha e assine um de nossos planos disponíveis de IPTV ou P2P.",
       "step-by-step-2": "2. Receba as informações do seu serviço e as instruções de como instalar e utilizar.",
-      "step-by-step-3": "3. Comece a desfrutar de todo o nosso conteúdo, sem restrições!"
+      "step-by-step-3": "3. Comece a desfrutar de todo o nosso conteúdo, sem restrições!",
+      "step-by-step-img-alt-1": "Como funciona - passo 1",
+      "step-by-step-img-alt-2": "Como funciona - passo 2",
+      "step-by-step-img-alt-3": "Como funciona - passo 3"
+
     },
     "princing": {
       "title": "Nossos Planos",
@@ -59,7 +63,8 @@
           },
           "plan-3": {
             "feature-1": "2 telas simultâneas"
-          }
+          },
+          "recommended": "Recomendado"
         },
         "button": "Assinar Agora"
       }
