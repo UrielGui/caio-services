@@ -35,9 +35,6 @@ module.exports = {
   plugins: [
     plugin(function ({ addComponents }) {
       const main = {
-        ':root': {
-          backgroundColor: '#232627;',
-        },
         '*:focus': {
           outline: 'none',
         },
@@ -52,6 +49,9 @@ module.exports = {
         },
         '::-webkit-scrollbar-thumb:hover': {
           backgroundImage: 'linear-gradient(#ad1895, #134ecc, #0cb3b3)',
+        },
+        body: {
+          background: '#242327',
         },
         '.default-container': {
           paddingRight: '3rem',
