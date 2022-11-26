@@ -5,12 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        transparent: 'transparent',
         defaultBlue: '#0C7CE3',
         defaultPurple: '#790FAB',
         defaultPink: '#DF0B7D',
         defaultBlack: '#232627',
         defaultBlack2: '#242327',
-        defaultLightgreen: '#0CDFD2',
+        defaultGreen: '#0f948e',
         defaultCyan: '#10A4C4',
       },
       fontFamily: {
@@ -52,6 +53,7 @@ module.exports = {
         },
         body: {
           background: '#242327',
+          color: '#fff',
         },
         '.default-container': {
           paddingRight: '3rem',
