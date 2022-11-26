@@ -36,18 +36,26 @@
       "step-by-step-img-alt-3": "Como funciona - passo 3"
 
     },
-    "princing": {
+    "pricing": {
       "title": "Nossos Planos",
-      "description": "Nossos planos foram projetados para atender e possibilitar a todos de desfrutar essa revolução. Fazemos questão de prezar pela sofisticação em oferecer preços acessíveis com uma qualidade superior em todos os nossos serviços.",
+      "description": "Nossos planos foram projetados para atender e possibilitar a todos de desfrutar essa revolução.",
+      "description-2": "Fazemos questão de prezar pela sofisticação em oferecer preços acessíveis com uma qualidade superior em todos os nossos serviços.",
       "option-1": "Planos de IPTV",
       "option-2": "Planos de P2P",
       "plans": {
-        "plan-title-1": "Plano Mensal",
-        "price-title-1": "R$ 29,90",
-        "plan-title-2": "Plano Trimestral",
-        "price-title-2": "R$ 99,90",
-        "plan-title-3": "Plano Anual",
-        "price-title-3": "R$ 199,90",
+        "title-1": "Plano Mensal",
+        "title-2": "Plano Trimestral",
+        "title-3": "Plano Anual",
+        "plan-1": {
+          "price-1": "R$ 24,90",
+          "price-2": "R$ 139,90",
+          "price-3": "R$ 199,90"
+        },
+        "plan-2": {
+          "price-1": "R$ 34,90",
+          "price-2": "R$ 199,90",
+          "price-3": "R$ 299,90"
+        },
         "default-features": {
           "feature-1": "Desconto incluso",
           "feature-2": "Qualidade 4K/FHD/HD/SD",
@@ -58,15 +66,15 @@
           "feature-7": "Canais e serviços 24 horas"
         },
         "custom-features": {
-          "plan-1": {
+          "pricing-1": {
             "feature-1": "1 tela simultânea"
           },
-          "plan-3": {
+          "pricing-3": {
             "feature-1": "2 telas simultâneas"
-          },
-          "recommended": "Recomendado"
+          }
         },
-        "button": "Assinar Agora"
+        "button": "Assinar Agora",
+        "recommended": "Recomendado"
       }
     },
     "pricing-2": {
