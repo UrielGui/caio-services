@@ -6,3 +6,15 @@
   font-family: 'OpenSans';
   src: url('../public/fonts/OpenSans-Regular.ttf');
 }
+
+.toggle-checkbox {
+  border-color: #10a4c4;
+}
+
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #68d391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #68d391;
+}
