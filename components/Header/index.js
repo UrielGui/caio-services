@@ -5,10 +5,10 @@ export default function Header() {
   const { t } = useTranslation();
   return (
     <header className='w-full bg-defaultBlack2 py-6 shadow-[0_-3px_39px_19px_rgba(0,0,0,0.28)]'>
-      <div className='default-container min-w-full text-white'>
+      <div className='default-container min-w-full'>
         <div className='flex text-xl'>
           <div className='place-self-center'>
-            <Image src='/img/logo.png' alt={t('head.title')} width={200} height={100} />
+            <Image src='/img/logo.png' alt={t('head.title')} width={180} height={100} />
           </div>
           <div className='flex flex-grow'>
             <nav className='flex text-white w-full mt-1 pl-4'>
