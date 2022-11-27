@@ -27,7 +27,7 @@ export default function PriceList({ inputChecked }) {
 
   return (
     <div className='mt-6'>
-      <div className='w-full flex justify-center mt-20 space-x-32'>
+      <div className='w-full flex justify-between mt-20'>
         <div className='w-1/5 flex flex-col items-center'>
           <div className='w-96 border-defaultGreen border-4 rounded-2xl'>
             <div className='py-6 bg-gradient-to-b from-defaultGreen to-transparent rounded-t-lg'>
