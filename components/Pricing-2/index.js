@@ -49,7 +49,7 @@ export default function Pricing2() {
                 {t('pricing.plans.button')}
               </button>
             </div>
-            <div className='flex'>
+            <div>
               <Image src='/img/management-panel.png' alt='iptv management panel' width={500} height={500} />
             </div>
           </div>
