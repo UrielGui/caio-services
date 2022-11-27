@@ -22,27 +22,27 @@ export default function Pricing2() {
               <ul className='space-y-2 mt-6'>
                 <li className='flex align-items: center;'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                  <span className='relative -top-0.5 text-xl'>{t('pricing-2.features.feature-1')}</span>
+                  <span className='relative -top-0.5 text-xl ml-1'>{t('pricing-2.features.feature-1')}</span>
                 </li>
                 <li className='flex align-items: center;'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                  <span className='relative -top-0.5 text-xl'>{t('pricing-2.features.feature-2')}</span>
+                  <span className='relative -top-0.5 text-xl ml-1'>{t('pricing-2.features.feature-2')}</span>
                 </li>
                 <li className='flex align-items: center;'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                  <span className='relative -top-0.5 text-xl'>{t('pricing-2.features.feature-3')}</span>
+                  <span className='relative -top-0.5 text-xl ml-1'>{t('pricing-2.features.feature-3')}</span>
                 </li>
                 <li className='flex'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                  <span className='relative -top-0.5 text-xl'>{t('pricing-2.features.feature-4')}</span>
+                  <span className='relative -top-0.5 text-xl ml-1'>{t('pricing-2.features.feature-4')}</span>
                 </li>
                 <li className='flex'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                  <span className='relative -top-0.5 text-xl'>{t('pricing-2.features.feature-5')}</span>
+                  <span className='relative -top-0.5 text-xl ml-1'>{t('pricing-2.features.feature-5')}</span>
                 </li>
                 <li className='flex'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                  <span className='relative -top-0.5 text-xl'>{t('pricing-2.features.feature-6')}</span>
+                  <span className='relative -top-0.5 text-xl ml-1'>{t('pricing-2.features.feature-6')}</span>
                 </li>
               </ul>
               <button type='button' className='bg-defaultBlue w-64 mt-6 rounded-md py-3 px-5 mb-6'>
