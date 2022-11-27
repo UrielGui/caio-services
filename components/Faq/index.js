@@ -19,7 +19,7 @@ export default function Faq() {
     return (
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className={`${id === open ? ' rotate-270' : 'rotate-30'} absolute top-2.5  h-5 w-5 transition-transform`}
+        className={`${id === open ? ' rotate-270' : 'rotate-30'} absolute top-[26px]  h-5 w-5 transition-transform`}
         fill='none'
         viewBox='0 0 24 24'
         stroke='currentColor'
