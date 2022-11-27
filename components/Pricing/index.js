@@ -7,7 +7,7 @@ export default function Pricing() {
   const [inputChecked, setInputChecked] = useState(null);
   const { t } = useTranslation();
   return (
-    <section className='bg-defaultBlack2 py-8 text-xl'>
+    <section className='py-8 text-xl'>
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('pricing.title')}</h1>
@@ -15,7 +15,7 @@ export default function Pricing() {
           <p className='w-4/5'>{t('pricing.description-2')}</p>
           <div className='flex mt-10'>
             <span>{t('pricing.option-1')}</span>
-            <div class='relative inline-block w-28 mr-2 align-middle select-none mx-4 mr-4 -top-2'>
+            <div className='relative inline-block w-28 mr-2 align-middle select-none mx-4 mr-4 -top-2'>
               <input
                 type='checkbox'
                 name='toggle'
