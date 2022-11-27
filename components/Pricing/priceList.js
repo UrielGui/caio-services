@@ -44,31 +44,31 @@ export default function PriceList({ inputChecked }) {
               </li>
               <li className='flex align-items: center;'>
                 <ImCancelCircle style={defaultCancelIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-1')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-1')}</span>
               </li>
               <li className='flex align-items: center;'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-2')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-2')}</span>
               </li>
               <li className='flex align-items: center;'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-3')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-3')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-4')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-4')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-5')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-5')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-6')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-6')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-7')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-7')}</span>
               </li>
             </ul>
             <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
@@ -89,37 +89,37 @@ export default function PriceList({ inputChecked }) {
           <ul className='space-y-4 py-6 pl-8'>
             <li className='flex align-items: center;'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>
+              <span className='relative -top-0.5 text-xl ml-1'>
                 {inputChecked ? t('pricing.plans.custom-features.pricing-1.feature-1') : iptvData.feature1}
               </span>
             </li>
             <li className='flex align-items: center;'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-1')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-1')}</span>
             </li>
             <li className='flex align-items: center;'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-2')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-2')}</span>
             </li>
             <li className='flex align-items: center;'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-3')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-3')}</span>
             </li>
             <li className='flex'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-4')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-4')}</span>
             </li>
             <li className='flex'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-5')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-5')}</span>
             </li>
             <li className='flex'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-6')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-6')}</span>
             </li>
             <li className='flex'>
               <AiOutlineCheckCircle style={mainCheckedIcon} />{' '}
-              <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-7')}</span>
+              <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-7')}</span>
             </li>
           </ul>
           <button type='button' className='bg-defaultBlue w-4/5 rounded-md py-3 px-5 mb-6'>
@@ -145,31 +145,31 @@ export default function PriceList({ inputChecked }) {
               </li>
               <li className='flex align-items: center;'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-1')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-1')}</span>
               </li>
               <li className='flex align-items: center;'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-2')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-2')}</span>
               </li>
               <li className='flex align-items: center;'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-3')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-3')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-4')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-4')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-5')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-5')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-6')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-6')}</span>
               </li>
               <li className='flex'>
                 <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
-                <span className='relative -top-0.5 text-xl'>{t('pricing.plans.default-features.feature-7')}</span>
+                <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-7')}</span>
               </li>
             </ul>
             <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
