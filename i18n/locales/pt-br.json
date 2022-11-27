@@ -113,7 +113,10 @@
       "title": "Dúvidas? Entre em contato com a gente pelo WhatsApp"
     },
     "footer": {
-      "copyright": "© 2022 Caio Services. Todos os direitos reservados"
+      "copyright": {
+        "name": "Caio Services",
+        "all-rights-reserved": "Todos os direitos reservados"
+      }
     }
   }
 }
