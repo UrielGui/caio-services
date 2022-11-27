@@ -9,7 +9,7 @@ module.exports = {
         defaultBlue: '#0C7CE3',
         defaultPurple: '#790FAB',
         defaultPink: '#DF0B7D',
-        defaultBlack: '#232627',
+        defaultBlack: '#1C1E1F',
         defaultBlack2: '#242327',
         defaultGreen: '#0f948e',
         defaultCyan: '#10A4C4',
@@ -30,6 +30,9 @@ module.exports = {
       },
       animation: {
         slide: 'slide 30s linear infinite',
+      },
+      rotate: {
+        30: '30deg',
       },
     },
   },
@@ -52,8 +55,11 @@ module.exports = {
           backgroundImage: 'linear-gradient(#ad1895, #134ecc, #0cb3b3)',
         },
         body: {
-          background: '#242327',
+          background: '#1C1E1F',
           color: '#fff',
+        },
+        a: {
+          color: '#10A4C4',
         },
         '.default-container': {
           paddingRight: '3rem',
