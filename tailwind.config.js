@@ -19,6 +19,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-section-background': "url('/img/hero-section-background.png')",
+        'blue-light-background': "url('/img/blue-light-background.png')",
+        'pink-light-background': "url('/img/pink-light-background.png')",
+        'green-light-background': "url('/img/green-light-background.png')",
       },
       width: {
         200: '200%',
@@ -43,16 +46,16 @@ module.exports = {
           outline: 'none',
         },
         '::-webkit-scrollbar': {
-          width: '8px',
+          width: '12px',
         },
         '::-webkit-scrollbar-track': {
           background: '#0c0719',
         },
         '::-webkit-scrollbar-thumb': {
-          backgroundImage: 'linear-gradient(#c824ac, #1961f9, #00d1d2)',
+          background: '#0C7CE3',
         },
         '::-webkit-scrollbar-thumb:hover': {
-          backgroundImage: 'linear-gradient(#ad1895, #134ecc, #0cb3b3)',
+          opacity: '0.5',
         },
         body: {
           background: '#1C1E1F',
