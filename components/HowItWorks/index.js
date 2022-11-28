@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function HowItWorks() {
   const { t } = useTranslation();
   return (
-    <section className='py-12'>
+    <section id='how-it-works' className='py-12'>
       <div className='default-container'>
         <div className='w-11/12'>
           <h1 className='text-3xl'>{t('how-it-works.title')}</h1>

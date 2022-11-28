@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function Header() {
   const { t } = useTranslation();
   return (
-    <header className='bg-defaultBlack2 py-6 shadow-[0_-3px_39px_19px_rgba(0,0,0,0.28)]'>
+    <header id='header' className='bg-defaultBlack2 py-6 shadow-[0_-3px_39px_19px_rgba(0,0,0,0.28)]'>
       <div className='default-container'>
         <div className='flex text-xl place-items-center'>
           <Image className='relative top-0.5' src='/img/logo.png' alt={t('head.title')} width={180} height={100} />

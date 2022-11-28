@@ -4,7 +4,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 export default function Contact() {
   const { t } = useTranslation();
   return (
-    <section className='py-10 text-xl'>
+    <section id='contact' className='py-10 text-xl'>
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-xl'>{t('contact.title')}</h1>

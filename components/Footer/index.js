@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function Footer() {
   const { t } = useTranslation();
   return (
-    <footer className='bg-defaultBlack2'>
+    <footer id='footer' className='bg-defaultBlack2'>
       <div className='default-container'>
         <div className='flex text-xl py-4'>
           <div className='flex flex-grow place-items-center'>

@@ -7,7 +7,7 @@ export default function Pricing() {
   const [inputChecked, setInputChecked] = useState(null);
   const { t } = useTranslation();
   return (
-    <section className='py-8 text-xl'>
+    <section id='pricing' className='py-8 text-xl'>
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('pricing.title')}</h1>

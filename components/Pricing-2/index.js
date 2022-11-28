@@ -7,7 +7,7 @@ export default function Pricing2() {
   const { t } = useTranslation();
   const defaultCheckedIcon = { color: '#0C7CE3', marginRight: '5px', fontSize: '1.2em' };
   return (
-    <section className='py-10 text-xl bg-defaultBlack2'>
+    <section id='pricing-2' className='py-10 text-xl bg-defaultBlack2'>
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('pricing-2.title')}</h1>

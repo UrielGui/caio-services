@@ -4,7 +4,7 @@ import Card from './card';
 export default function Description() {
   const { t } = useTranslation();
   return (
-    <section className='py-8 text-xl'>
+    <section id='description' className='py-8 text-xl'>
       <div className='text-center flex flex-col items-center py-6'>
         <h1 className='text-3xl'>{t('description.title')}</h1>
         <p className='w-2/4 mt-3'>{t('description.description')}</p>

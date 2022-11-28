@@ -31,7 +31,7 @@ export default function Faq() {
   }
 
   return (
-    <section className='py-10 text-xl'>
+    <section id='faq' className='py-10 text-xl'>
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('faq.title')}</h1>
