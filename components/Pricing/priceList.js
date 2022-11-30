@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 import { ImCancelCircle } from 'react-icons/im';
+import Link from 'next/link';
 
 export default function PriceList({ inputChecked }) {
   const { t } = useTranslation();
@@ -71,9 +72,17 @@ export default function PriceList({ inputChecked }) {
                 <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-7')}</span>
               </li>
             </ul>
-            <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
-              {t('pricing.plans.button')}
-            </button>
+            <Link
+              href={
+                inputChecked
+                  ? 'https://central.caioservices.tech/cart.php?a=add&pid=2&carttpl=standard_cart'
+                  : 'https://central.caioservices.tech/cart.php?a=add&pid=1&carttpl=standard_cart'
+              }
+            >
+              <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
+                {t('pricing.plans.button')}
+              </button>
+            </Link>
           </div>
         </div>
         <div className='w-96 border-defaultBlue border-4 rounded-2xl relative -top-16'>
@@ -122,9 +131,17 @@ export default function PriceList({ inputChecked }) {
               <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-7')}</span>
             </li>
           </ul>
-          <button type='button' className='bg-defaultBlue w-4/5 rounded-md py-3 px-5 mb-6'>
-            {t('pricing.plans.button')}
-          </button>
+          <Link
+            href={
+              inputChecked
+                ? 'https://central.caioservices.tech/cart.php?a=add&pid=4&carttpl=standard_cart'
+                : 'https://central.caioservices.tech/cart.php?a=add&pid=3&carttpl=standard_cart'
+            }
+          >
+            <button type='button' className='bg-defaultBlue w-4/5 rounded-md py-3 px-5 mb-6'>
+              {t('pricing.plans.button')}
+            </button>
+          </Link>
         </div>
         <div className='w-1/5 flex flex-col items-center'>
           <div className='w-96 border-defaultGreen border-4 rounded-2xl'>
@@ -172,9 +189,17 @@ export default function PriceList({ inputChecked }) {
                 <span className='relative -top-0.5 text-xl ml-1'>{t('pricing.plans.default-features.feature-7')}</span>
               </li>
             </ul>
-            <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
-              {t('pricing.plans.button')}
-            </button>
+            <Link
+              href={
+                inputChecked
+                  ? 'https://central.caioservices.tech/cart.php?a=add&pid=6&carttpl=standard_cart'
+                  : 'https://central.caioservices.tech/cart.php?a=add&pid=5&carttpl=standard_cart'
+              }
+            >
+              <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
+                {t('pricing.plans.button')}
+              </button>
+            </Link>
           </div>
         </div>
       </div>
