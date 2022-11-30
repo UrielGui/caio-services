@@ -61,9 +61,6 @@ module.exports = {
           background: '#1C1E1F',
           color: '#fff',
         },
-        a: {
-          color: '#10A4C4',
-        },
         '.default-container': {
           paddingRight: '3rem',
           paddingLeft: '3rem',
