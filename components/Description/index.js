@@ -1,11 +1,16 @@
 import { useTranslation } from 'react-i18next';
-import Card from './card';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
 import 'swiper/css';
 
 export default function Description() {
   const { t } = useTranslation();
+
+  function importDir(dir) {
+    return dir.keys().map(dir);
+  }
+  const imgFolder = importDir(require.context('/public/img/carroussel', false, /\.(png|jpe?g|svg)$/));
+
   SwiperCore.use([Autoplay]);
   return (
     <section id='description' className='py-8 text-xl'>
@@ -31,42 +36,18 @@ export default function Description() {
       >
         <div className='flex justify-center overflow-hidden relative'>
           <div className='w-full flex w-max items-center space-x-16'>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-1.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-2.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-3.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-4.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-5.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-6.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-7.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-8.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-9.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-10.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-11.png')]" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card background="bg-[url('/img/carroussel/card-12.png')]" />
-            </SwiperSlide>
+            {imgFolder.map((img, i) => {
+              return (
+                <SwiperSlide key={i}>
+                  <div
+                    style={{
+                      backgroundImage: `url('/img/carroussel/card-${i + 1}.png')`,
+                    }}
+                    className={`bg-no-repeat bg-cover bg-bottom w-44 h-60 bg-pink-800 rounded-2xl`}
+                  />
+                </SwiperSlide>
+              );
+            })}
           </div>
         </div>
       </Swiper>
