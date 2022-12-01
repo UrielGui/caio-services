@@ -12,7 +12,11 @@ export default function Pricing2() {
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('pricing-2.title')}</h1>
           <p className='mt-3'>
-            {t('pricing-2.description')} <Link href='/'>{t('pricing-2.link-text')}</Link>
+            {t('pricing-2.description')}{' '}
+            <span className='text-defaultCyan'>
+              {' '}
+              <Link href='/'>{t('pricing-2.link-text')}</Link>
+            </span>
           </p>
         </div>
         <div className='default-container min-w-full mt-8'>
