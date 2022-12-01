@@ -13,7 +13,7 @@ export default function HowItWorks() {
           <p className='mt-6'>{t('how-it-works.description-3')}</p>
         </div>
         <div className='w-full flex justify-center mt-4 space-x-32'>
-          <div className='w-1/5 flex flex-col items-center'>
+          <div className='w-3/12 flex flex-col items-center'>
             <Image
               src='/img/step-by-step/step-1.png'
               alt={t('how-it-works.step-by-step-img-alt-1')}
@@ -22,7 +22,7 @@ export default function HowItWorks() {
             />
             <p className='mt-2'>{t('how-it-works.step-by-step-1')}</p>
           </div>
-          <div className='w-1/5 flex flex-col items-center'>
+          <div className='w-3/12 flex flex-col items-center'>
             <Image
               src='/img/step-by-step/step-2.png'
               alt={t('how-it-works.step-by-step-img-alt-2')}
@@ -31,7 +31,7 @@ export default function HowItWorks() {
             />
             <p className='mt-2'>{t('how-it-works.step-by-step-2')}</p>
           </div>
-          <div className='w-1/5 flex flex-col items-center'>
+          <div className='w-3/12 flex flex-col items-center'>
             <Image
               src='/img/step-by-step/step-3.png'
               alt={t('how-it-works.step-by-step-img-alt-3')}

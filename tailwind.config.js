@@ -62,8 +62,8 @@ module.exports = {
           color: '#fff',
         },
         '.default-container': {
-          paddingRight: '3rem',
-          paddingLeft: '3rem',
+          paddingRight: '4rem',
+          paddingLeft: '4rem',
         },
       };
       addComponents(main);

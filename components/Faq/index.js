@@ -32,7 +32,7 @@ export default function Faq() {
   }
 
   return (
-    <section id='faq' className='py-10 text-xl'>
+    <section id='faq' className='py-10 text-base'>
       <Image
         src='/img/green-light-background.png'
         alt={t('how-it-works.step-by-step-img-alt-1')}

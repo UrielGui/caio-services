@@ -24,14 +24,14 @@ export default function Home() {
       <Image
         src='/img/blue-light-background.png'
         alt={t('how-it-works.step-by-step-img-alt-1')}
-        className='absolute w-1/5 h-[200vh] top-[1020px] max-w-sm max-h-[120rem] -z-50'
+        className='absolute w-[28%] h-[200vh] top-[860px] max-w-md max-h-[120rem] -z-50'
         width={200}
         height={100}
       />
       <Image
         src='/img/pink-light-background.png'
         alt={t('how-it-works.step-by-step-img-alt-1')}
-        className='absolute w-1/5 h-[200vh] top-[1020px] left-auto right-[0%] max-w-sm max-h-[120rem] -z-50'
+        className='absolute w-[28%] h-[200vh] top-[860px] left-auto right-[0%] max-w-md max-h-[120rem] -z-50'
         width={200}
         height={100}
       />
