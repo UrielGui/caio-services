@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Accordion, AccordionHeader, AccordionBody } from '@material-tailwind/react';
@@ -32,6 +33,13 @@ export default function Faq() {
 
   return (
     <section id='faq' className='py-10 text-xl'>
+      <Image
+        src='/img/green-light-background.png'
+        alt={t('how-it-works.step-by-step-img-alt-1')}
+        className='absolute w-1/5 h-[100vh] left-auto right-[0%] max-w-sm max-h-[60rem] -z-50'
+        width={200}
+        height={100}
+      />
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('faq.title')}</h1>
