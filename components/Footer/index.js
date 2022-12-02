@@ -6,9 +6,9 @@ export default function Footer() {
   const d = new Date();
   let year = d.getFullYear();
   return (
-    <footer id='footer' className='bg-defaultBlack2'>
+    <footer className='bg-defaultBlack2'>
       <div className='default-container'>
-        <div className='flex text-base py-4'>
+        <div className='flex text-base py-4 flex-col lg:flex-row place-items-center'>
           <div className='flex flex-grow place-items-center'>
             <span className='px-2'>
               © {year} <span className='font-bold'>{t('footer.copyright.name')}</span>.{' '}
