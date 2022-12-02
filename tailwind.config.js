@@ -19,20 +19,13 @@ module.exports = {
       },
       backgroundImage: {
         'hero-section-background': "url('/img/hero-section-background.png')",
+        'hero-section-mobile-background': "url('/img/hero-section-mobile-background.png')",
         'blue-light-background': "url('/img/blue-light-background.png')",
         'pink-light-background': "url('/img/pink-light-background.png')",
         'green-light-background': "url('/img/green-light-background.png')",
       },
       width: {
         200: '200%',
-      },
-      keyframes: {
-        slide: {
-          '100%': { transform: 'translateX(-66.6666%)' },
-        },
-      },
-      animation: {
-        slide: 'slide 30s linear infinite',
       },
       rotate: {
         30: '30deg',
