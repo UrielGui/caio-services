@@ -19,11 +19,11 @@ export default function Pricing2() {
             </span>
           </p>
         </div>
-        <div className='default-container min-w-full mt-8'>
-          <div className='flex text-base'>
-            <div className='flex flex-grow flex-col '>
+        <div className='min-w-full mt-8'>
+          <div className='flex text-base md:flex-row flex-col flex-col-reverse'>
+            <div className='flex flex-grow flex-col md:place-items-start place-items-center'>
               <h2>{t('pricing-2.description-2')}</h2>
-              <ul className='space-y-2 mt-6'>
+              <ul className='md:space-y-2 mt-6'>
                 <li className='flex align-items: center;'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
                   <span className='relative -top-0.5 text-base ml-1'>{t('pricing-2.features.feature-1')}</span>
@@ -55,7 +55,7 @@ export default function Pricing2() {
                 </button>
               </Link>
             </div>
-            <div>
+            <div className='mb-8 md:mb-0 place-self-center	'>
               <Image src='/img/management-panel.png' alt='iptv management panel' width={500} height={500} />
             </div>
           </div>
