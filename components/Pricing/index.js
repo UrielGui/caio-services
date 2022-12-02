@@ -27,7 +27,7 @@ export default function Pricing() {
               <label
                 htmlFor='toggle'
                 className='toggle-label block overflow-hidden h-10 rounded-full bg-defaultCyan cursor-pointer'
-              ></label>
+              />
             </div>
             <span>{t('pricing.option-2')}</span>
           </div>
