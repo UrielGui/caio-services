@@ -44,7 +44,7 @@ export default function Faq() {
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-3xl'>{t('faq.title')}</h1>
         </div>
-        <div className='px-48 mt-10'>
+        <div className='md:px-20 lg:px-48 mt-10'>
           <Accordion open={open === 1} animate={customAnimation} icon={''}>
             <AccordionHeader onClick={() => handleOpen(1)}>
               {<Icon id={1} open={open} />}
