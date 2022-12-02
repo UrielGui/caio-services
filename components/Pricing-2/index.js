@@ -15,7 +15,9 @@ export default function Pricing2() {
             {t('pricing-2.description')}{' '}
             <span className='text-defaultCyan'>
               {' '}
-              <Link href='/'>{t('pricing-2.link-text')}</Link>
+              <Link href='https://central.caioservices.tech/index.php?rp=/knowledgebase/4/'>
+                {t('pricing-2.link-text')}
+              </Link>
             </span>
           </p>
         </div>
